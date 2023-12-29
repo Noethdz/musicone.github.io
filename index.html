@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSICONE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <h1 id="title">PLAY SONG</h1>
+    <canvas id="cnv"></canvas>
+    <div class="music_player">
+        <div class="album_art"></div>
+        <div class="time_container">
+            <div class="currentTime" id="currentTime">0:00</div>
+            <div class="durationTime" id="durationTime">0:00</div>
+        </div>
+        <div class="seek_bar">
+            <div class="seek_bar_inner"></div>
+        </div>
+        <div class="control">
+            <div class="play_btn" onclick="play_song()"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="icons">
+            <a class="git" href="https://github.com/Noethdz"><i id="git" class="bi bi-github"></i></a>
+            <a class="link" href="http://www.linkedin.com/in/noe-trejo"><i id="link" class="bi bi-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="fondo.js"></script>
+</body>
+
+</html>
